@@ -84,7 +84,7 @@ time_counter = Counter(win, gameover_font)
 # FUNCTIONS ******************************************************************
 
 def get_speed(score):
-	return 200 + 5 # * score
+	return 200 + 5 * score
 
 def play_notes(notePath):
 	pygame.mixer.Sound(notePath).play()
